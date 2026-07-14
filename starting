@@ -1,0 +1,15 @@
+"""
+AI Email Assistant
+Author: Your Name
+
+Main entry point of the application.
+"""
+
+def main():
+    print("=" * 40)
+    print("      AI EMAIL ASSISTANT")
+    print("=" * 40)
+    print("\nProject setup successful!")
+
+if __name__ == "__main__":
+    main()
