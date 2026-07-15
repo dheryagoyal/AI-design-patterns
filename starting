@@ -13,3 +13,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+rom abc import ABC, abstractmethod
+class EmailStrategy(ABC):
+    """
+    Abstract base class for all email strategies.
+    """
+
+    @abstractmethod
+    def execute(self, text: str) -> str:
+        """
+        Perform an email operation.
+        """
+        pass
